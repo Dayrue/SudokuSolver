@@ -222,8 +222,6 @@ while run:
                         puzzle[y][x] = answer[y][x]
         
         if event.type == pg.MOUSEBUTTONUP:
-            print(puzzle)
-            print()
             win.fill(WHITE)
             drawWindow()
             pos = pg.mouse.get_pos()
